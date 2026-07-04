@@ -1,80 +1,90 @@
-# Raphael Kamau — Full-Stack Developer Portfolio
+# Raphael Kamau — Full‑Stack Developer Portfolio
 
-A modern, responsive personal portfolio website built with **React**, **TypeScript**, and **Vite**. Showcases full-stack development expertise in MERN applications, AIoT systems, and geospatial/environmental projects.
+[Live demo](https://myportfolio-five-blush-43.vercel.app/) · [LinkedIn](https://linkedin.com/in/raphael-kamau-kamunyu) · [GitHub](https://github.com/kamunyuraphael)
 
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen?style=flat-square)](https://myportfolio-five-blush-43.vercel.app/)
 ![TypeScript](https://img.shields.io/badge/TypeScript-73.7%25-3178c6?style=flat-square)
-![CSS](https://img.shields.io/badge/CSS-22.9%25-563d7c?style=flat-square)
-![HTML](https://img.shields.io/badge/HTML-2%25-e34c26?style=flat-square)
 ![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-8-646cff?style=flat-square&logo=vite)
 
-## 🚀 Features
+A modern, responsive personal portfolio website built with React, TypeScript and Vite. It showcases full‑stack development expertise (MERN), AIoT integrations, and geospatial/predictive-data tools for environmental monitoring.
 
-- **Responsive Design** — Mobile-first, works seamlessly on all screen sizes
-- **Smooth Animations** — Framer Motion–powered entrance effects and hover interactions
-- **Form Validation** — React Hook Form + Zod schema validation for the contact form
-- **Accessible** — Focus-visible outlines, semantic HTML, reduced-motion support
-- **Performance Optimized** — Vite hot module reloading for fast development, optimized production builds
-- **Modern Styling** — CSS custom properties with a cohesive "Field Console" design system
+---
 
-## 📋 Sections
+## Table of Contents
 
-- **Hero** — Eye-catching introduction with social media links (LinkedIn, GitHub)
-- **About** — Background and professional summary
-- **Skills** — Technical competencies with visual organization
-- **Education** — Timeline of academic and professional development
-- **Projects** — Featured work with hover overlays and status badges
-- **Contact** — Message form with real-time validation
-- **Navigation** — Sticky navbar with smooth scroll anchors and active link tracking
-- **Footer** — Copyright and additional links
+- [Features](#features)
+- [Demo / Screenshots](#demo--screenshots)
+- [Tech Stack](#tech-stack)
+- [Design System & Accessibility](#design-system--accessibility)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Quick start](#quick-start)
+  - [Available scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Form Validation (example)](#form-validation-example)
+- [Animations & UX](#animations--ux)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author & Contact](#author--contact)
 
-## 🎨 Design System
+---
 
-The portfolio uses a grounded, technical aesthetic inspired by field instruments and geospatial visualization:
+## Features
 
-| Token | Color | Usage |
-|-------|-------|-------|
-| `--ink` | `#0E1D18` | Dark section backgrounds, deep forest tone |
-| `--canopy` | `#16302A` | Elevated surfaces on dark backgrounds |
-| `--stone` | `#F1EFE4` | Light section backgrounds, warm stone |
-| `--signal` | `#C98A2B` | Primary accent (ochre), CTAs and highlights |
-| `--moss` | `#4C7A63` | Secondary accent, links and badges |
+- Responsive, mobile-first layout with a clear visual hierarchy
+- Smooth UI transitions (Framer Motion) and accessible motion preferences
+- Contact form with client-side validation (React Hook Form + Zod)
+- Semantic HTML and accessibility best practices (ARIA labels, focus-visible)
+- Performance-oriented build using Vite
+- Clean, maintainable TypeScript codebase and ESLint rules
 
-**Typography:**
-- Display: Space Grotesk (bold, headlines)
-- Body: Inter (readable, body text)
-- Mono: JetBrains Mono (labels, code-like elements)
+---
 
-## 🛠️ Tech Stack
+## Demo / Screenshots
 
-### Runtime & Build
-- **React 19** — UI framework
-- **TypeScript ~6.0** — Static typing
-- **Vite 8** — Lightning-fast dev server and build tool
+Live demo: https://myportfolio-five-blush-43.vercel.app/
 
-### Form & Validation
-- **React Hook Form 7.75** — Performant form state management
-- **Zod 4.4** — TypeScript-first schema validation
-- **@hookform/resolvers** — Bridge for form validation
+Add screenshots to `public/` and reference them here for the repo README:
 
-### UI & Styling
-- **React-Bootstrap 2.10** — Component library (responsive grid, forms, buttons)
-- **Bootstrap 5.3** — CSS framework
-- **Framer Motion 12** — Animation library
+![Homepage preview](./public/screenshot-home.png)  
+*Replace `screenshot-home.png` with a production screenshot to show the site.*
 
-### Icons
-- **React Icons 5.6** — Icon library (Font Awesome, Feather, etc.)
+---
 
-### Developer Experience
-- **ESLint 10** — Code linting
-- **TypeScript ESLint 8.58** — TS-specific linting rules
+## Tech Stack
 
-## 📦 Installation
+- Runtime & build: React, TypeScript, Vite
+- Styling & components: Bootstrap 5 / React-Bootstrap, CSS custom properties
+- Animation: Framer Motion
+- Forms & validation: React Hook Form + Zod
+- Icons: React Icons
+- DX: ESLint, TypeScript ESLint
+
+---
+
+## Design System & Accessibility
+
+Color tokens and typography are used consistently across the site:
+
+- Tokens: `--ink`, `--canopy`, `--stone`, `--signal`, `--moss`
+- Typography: Space Grotesk (display), Inter (body), JetBrains Mono (mono)
+- Accessibility:
+  - Focus-visible outlines for keyboard users
+  - Semantic landmarks (nav, main, section, footer)
+  - Prefers-reduced-motion support
+  - Alt text for meaningful images and ARIA labels where required
+
+---
+
+## Getting Started
 
 ### Prerequisites
-- Node.js 18+ and npm/yarn
 
-### Setup
+- Node.js 18+ and npm (or Yarn)
+
+### Quick start
 
 ```bash
 # Clone the repository
@@ -83,75 +93,58 @@ cd myportfolio
 
 # Install dependencies
 npm install
-```
 
-## 🚀 Running Locally
-
-```bash
-# Start development server (HMR enabled)
+# Start development server
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser. The app will hot-reload as you edit files.
+Open http://localhost:5173 — the app hot-reloads as you edit.
 
-## 🏗️ Building for Production
+### Available scripts
 
-```bash
-# Type-check and build
-npm run build
+- npm run dev — Start development server (HMR)
+- npm run build — Build production assets
+- npm run preview — Preview the production build locally
+- npm run lint — Run ESLint checks
+- npm run lint -- --fix — Auto-fix lintable issues
 
-# Preview production build
-npm run preview
-```
+---
 
-Build output is in the `dist/` directory.
+## Project structure
 
-## 🔍 Linting
-
-```bash
-# Check code quality
-npm run lint
-
-# Fix fixable issues
-npm run lint -- --fix
-```
-
-## 📁 Project Structure
+Key files and folders:
 
 ```
 src/
 ├── components/
-│   ├── Navbar.tsx          # Navigation bar with scroll anchors
-│   └── Footer.tsx          # Footer section
+│   ├── Navbar.tsx
+│   └── Footer.tsx
 ├── sections/
-│   ├── Hero.tsx            # Landing hero with intro and CTAs
-│   ├── About.tsx           # Professional background
-│   ├── Skills.tsx          # Technical skills and competencies
-│   ├── Education.tsx       # Education timeline
-│   ├── Projects.tsx        # Featured projects with descriptions
-│   └── Contact.tsx         # Contact form with validation
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Skills.tsx
+│   ├── Education.tsx
+│   ├── Projects.tsx
+│   └── Contact.tsx
 ├── types/
-│   └── form.ts             # Zod schemas and TypeScript types for forms
+│   └── form.ts
 ├── data/
-│   └── [data files]        # Static content and constants
 ├── assets/
-│   └── [images]            # Static images
-├── App.tsx                 # Root component and page orchestration
-├── main.tsx                # React DOM entry point
-└── index.css               # Design tokens, theming, and global styles
-
+├── App.tsx
+├── main.tsx
+└── index.css
 public/
-└── [static files]          # Served as-is by Vite
-
-vite.config.ts             # Vite configuration
-tsconfig.json              # TypeScript configuration
-eslint.config.js           # ESLint configuration
-package.json               # Project metadata and dependencies
+└── [static files]
+vite.config.ts
+tsconfig.json
+package.json
 ```
 
-## 🔗 Form Validation
+---
 
-The contact form uses **Zod** for runtime schema validation:
+## Form validation (example)
+
+Contact form schema (Zod + TypeScript):
 
 ```typescript
 // src/types/form.ts
@@ -165,60 +158,67 @@ export const contactSchema = z.object({
 export type ContactFormData = z.infer<typeof contactSchema>;
 ```
 
-## ✨ Animations
-
-Framer Motion powers smooth, declarative animations:
-
-```typescript
-<motion.div
-  initial={{ opacity: 0, y: 30 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8, ease: "easeOut" }}
->
-  Animated content
-</motion.div>
-```
-
-Project card images scale on hover, and overlays fade in smoothly for a polished feel.
-
-## ♿ Accessibility
-
-- Focus-visible outlines on all interactive elements (2px signal color)
-- Semantic HTML structure (nav, main, section, footer)
-- Alt text for images (when provided)
-- `prefers-reduced-motion` support (disables animations for users who prefer it)
-- ARIA labels and form validation feedback
-
-## 📱 Responsive Design
-
-Breakpoints follow Bootstrap conventions:
-- **Mobile:** < 576px
-- **Tablet:** 576px – 991px
-- **Desktop:** ≥ 992px
-
-Hero section adjusts height and font sizing fluidly. Navigation collapses into an offcanvas drawer on mobile.
-
-## 🚀 Deployment
-
-This is a static SPA (Single Page Application). Deploy the `dist/` folder to any static host:
-
-- **Vercel** — `npm run build` → connect GitHub repo
-- **Netlify** — drag & drop `dist/` or connect GitHub
-- **GitHub Pages** — configure `vite.config.ts` with base path
-- **AWS S3 + CloudFront** — sync `dist/` folder
-
-## 📝 License
-
-This project is open source. Feel free to adapt it for your own portfolio.
-
-## 👤 About
-
-**Raphael Kamau Kamunyu** — Full-Stack Developer specializing in MERN applications, AIoT systems, and geospatial/predictive data tools for environmental monitoring.
-
-- 🔗 [Website](https://myportfolio-five-blush-43.vercel.app/)
-- 🔗 [LinkedIn](https://linkedin.com/in/raphael-kamau-kamunyu)
-- 🐙 [GitHub](https://github.com/kamunyuraphael)
+This schema is used with React Hook Form via @hookform/resolvers for typed, ergonomic form validation.
 
 ---
 
-Built with ❤️ using React, TypeScript, and Vite.
+## Animations & UX
+
+Framer Motion is used for declarative animations and entrance transitions. Respecting `prefers-reduced-motion` is implemented to reduce motion for users who opt out.
+
+Example:
+
+```tsx
+<motion.div
+  initial={{ opacity: 0, y: 24 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: "easeOut" }}
+>
+  {/* content */}
+</motion.div>
+```
+
+---
+
+## Deployment
+
+This portfolio is a static SPA — build output is in `dist/`. Deploy options:
+
+- Vercel — connect the repo and set `npm run build` as the build command (already deployed at the demo link)
+- Netlify — connect repo or drag & drop `dist/`
+- GitHub Pages — configure `vite.config.ts` base if hosting under a subpath
+- AWS S3 + CloudFront — sync `dist/` to a public bucket
+
+---
+
+## Contributing
+
+Contributions are welcome. Suggested workflow:
+
+1. Fork the repository
+2. Create a topic branch: `git checkout -b feat/short-description`
+3. Make changes and add tests where relevant
+4. Lint and verify: `npm run lint` and `npm run build`
+5. Open a pull request with a clear description of changes
+
+Add a CONTRIBUTING.md file if you want to formalize guidelines (I can draft one).
+
+---
+
+## License
+
+This project is open source. Add a LICENSE file to explicitly state the license (for example: MIT). If you want, I can add a recommended LICENSE file and update the README badges accordingly.
+
+---
+
+## Author & Contact
+
+**Raphael Kamau Kamunyu** — Full‑Stack Developer
+
+- Website: https://myportfolio-five-blush-43.vercel.app/  
+- LinkedIn: https://linkedin.com/in/raphael-kamau-kamunyu  
+- GitHub: https://github.com/kamunyuraphael
+
+---
+
+Built with ❤️ — React, TypeScript, and Vite.

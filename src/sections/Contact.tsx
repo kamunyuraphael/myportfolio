@@ -8,7 +8,7 @@ import type { ContactFormData } from '../types/form';
 
 // Real contact details
 const CONTACT_EMAIL = 'kamunyuraphael@yahoo.com';
-const WHATSAPP_NUMBER = '+254742250184'; // international format, no + or spaces
+const WHATSAPP_NUMBER = '254742250184'; // international format, no + or spaces
 
 const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY as string | undefined;
 
@@ -81,7 +81,7 @@ const Contact = () => {
 
                             {status === 'success' && (
                                 <Alert variant="success" onClose={() => setStatus('idle')} dismissible className="mt-3">
-                                    Thanks for reaching out! Your message has been sent — I'll get back to you soon.
+                                    Thanks for reaching out! Your message has been sent. I'll get back to you soon.
                                 </Alert>
                             )}
                             {status === 'error' && (
@@ -140,7 +140,7 @@ const Contact = () => {
                     <Col lg={5}>
                         <Card className='p-4 shadow-sm border-0 h-100 bg-light text-center contact-links-card'>
                             <h3>Let's Connect</h3>
-                            <p className="mt-3 mb-4">I'm open to collaborations and freelance work — reach out however's easiest for you.</p>
+                            <p className="mt-3 mb-4">I'm open to collaborations and freelance work, reach out however's easiest for you.</p>
                             <div className='d-grid gap-3'>
                                 <Button
                                     variant='primary'

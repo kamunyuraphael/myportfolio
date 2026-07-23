@@ -13,6 +13,7 @@ const NAV_LINKS = [
 
 const Navigation = () => {
     const [activeId, setActiveId] = useState('home');
+    const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
         const sectionIds = [...NAV_LINKS.map((l) => l.id), 'contact'];
@@ -39,12 +40,26 @@ const Navigation = () => {
         return () => observer.disconnect();
     }, []);
 
+    useEffect(() => {
+        const onScroll = () => setIsScrolled(window.scrollY > 12);
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
+        return () => window.removeEventListener('scroll', onScroll);
+    }, []);
+
     return (
-        <Navbar collapseOnSelect expand='lg' bg='dark' variant="dark" fixed="top" className="py-3">
+        <Navbar
+            collapseOnSelect
+            expand='lg'
+            bg='dark'
+            variant="dark"
+            fixed="top"
+            className={`py-3 site-navbar ${isScrolled ? 'site-navbar-scrolled' : ''}`}
+        >
             <Container>
                 {/* Brand with profile image */}
                 <Navbar.Brand href="#home" className="d-flex align-items-center gap-2">
-                    <img src={profileImg} alt="Profile" width="40" height="40" className="rounded-circle shadow-sm" />
+                    <img src={profileImg} alt="Profile" width="40" height="40" className="rounded-circle shadow-sm navbar-avatar" />
                     <span className="fw-bold">Raphael Kamau</span>
                 </Navbar.Brand>
 

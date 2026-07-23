@@ -6,24 +6,24 @@ import type { Project } from '../types/project';
 const projects: Project[] = [
     {
         id: 1,
-        title: "Power Cast",
-        description: "MERN stack app with Python-based predictive logic for energy consumption.",
+        title: "Smart Energy Monitoring and Prediction System (SEMP)",
+        description: "SEMP is a home energy monitoring platform: forecast energy demand, track usage, and visualize consumption patterns to reduce waste. If interested contact fro login details.",
         impact: "Forecasts household energy demand to help cut waste before it happens.",
-        tags: ["React", "Node.js", "Python", "MongoDB"],
-        link: null,
-        live: false,
-        github: "https://github.com/kamunyuraphael/HMES",
-        image: "https://res.cloudinary.com/duuwn3dzm/image/upload/dashboard_img_bfyw5r.png"
+        tags: ["React", "Type Script", "Node.js", "Python", "MongoDB"],
+        link: "https://semp-nu.vercel.app/login",
+        live: true,
+        github: "https://github.com/kamunyuraphael/SEMP",
+        image: "https://res.cloudinary.com/iprdnhzp/image/upload/dashboard_tmvsw1.png"
     },
     {
         id: 2,
         title: "RegenMapper",
         description: "An interactive geospatial tool for tracking reforestation efforts, built with mapping libraries to visualize planting progress and environmental impact.",
         impact: "Turns scattered planting logs into a live map of land under active regeneration.",
-        tags: ["React", "Render", "Leaflet.JS"],
+        tags: ["React", "Type Script", "Render", "Leaflet.JS"],
         link: "https://regen-mapper-2fbn.vercel.app/",
         live: true,
-        github: "https://github.com/Raphael-Kamau/regen-mapper",
+        github: "https://github.com/kamunyuraphael/regen-mapper",
         image: "https://res.cloudinary.com/duuwn3dzm/image/upload/regen-mapper_wjkyow.png"
     },
     {
@@ -34,7 +34,7 @@ const projects: Project[] = [
         tags: ["Node.js", "React", "TypeScript", "Express"],
         link: "https://ui-forge-pihg.vercel.app/",
         live: true,
-        github: "https://github.com/Raphael-Kamau/ui-forge",
+        github: "https://github.com/kamunyuraphael/ui-forge",
         image: "https://res.cloudinary.com/duuwn3dzm/image/upload/ui-forge_qyvemj.png"
     },
     {

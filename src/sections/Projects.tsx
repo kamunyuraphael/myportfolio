@@ -64,11 +64,11 @@ const projects: Project[] = [
         title: "CultureQuest",
         description: "A platform for exploring and sharing cultural experiences and stories.",
         impact: "Connects people with diverse cultural backgrounds through immersive storytelling.",
-        tags: ["React", "TypeScript", "Bootstrap"],
+        tags: ["React", "TypeScript", "Bootstrap", "Express", "Node.js", "MongoDB"],
         link: "",
         live: false,
         github: "https://github.com/kamunyuraphael/CultureQuest",
-        image: "https://res.cloudinary.com/iprdnhzp/image/upload/culture-quest_vxqj0g.png"
+        image: "https://res.cloudinary.com/iprdnhzp/image/upload/culture-quest_xrc1l4.jpg"
     }
 ];
 

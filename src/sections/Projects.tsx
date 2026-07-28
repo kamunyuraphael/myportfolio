@@ -47,6 +47,28 @@ const projects: Project[] = [
         live: true,
         github: "https://github.com/kamunyuraphael/WildSphere",
         image: "https://res.cloudinary.com/duuwn3dzm/image/upload/7adb3bbb-01bc-4bd8-9368-1c7172a97436.png"
+    },
+    {
+        id: 5, 
+        title: "CarShowroom",
+        description: "A web app that pairs an interactive virtual vehicle showroom with automotive heritage timelines, a head-to-head spec comparison engine.",
+        impact: "Lets car enthusiasts explore vehicles, compare specs, and learn about automotive history in one place.",
+        tags: ["React", "TypeScript", "Bootstrap","Express", "Node.js", "MongoDB"],
+        link: "",
+        live: false,
+        github: "https://github.com/kamunyuraphael/carshowroom",
+        image: "https://res.cloudinary.com/iprdnhzp/image/upload/carshowroom_vj9lov.png"
+    },
+    {
+        id: 6,
+        title: "CultureQuest",
+        description: "A platform for exploring and sharing cultural experiences and stories.",
+        impact: "Connects people with diverse cultural backgrounds through immersive storytelling.",
+        tags: ["React", "TypeScript", "Bootstrap"],
+        link: "",
+        live: false,
+        github: "https://github.com/kamunyuraphael/CultureQuest",
+        image: "https://res.cloudinary.com/iprdnhzp/image/upload/culture-quest_vxqj0g.png"
     }
 ];
 

@@ -93,13 +93,22 @@ const Education = () => {
                                         <Badge bg="secondary" className="bg-opacity-10 text-secondary fw-normal">Feb 2026</Badge>
                                     </div>
                                 </li>
-                                <li>
+                                <li className="pb-3 border-bottom border-light-subtle">
                                     <div className="d-flex justify-content-between align-items-start">
                                         <div>
                                             <p className="mb-0 fw-semibold text-dark small">Basics of AI</p>
                                             <p className="text-muted mb-0" style={{ fontSize: '0.8rem' }}>UniAthena</p>
                                         </div>
                                         <Badge bg="warning" className="bg-opacity-10 text-warning fw-medium">Ongoing</Badge>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <p className="mb-0 fw-semibold text-dark small">Cloud 101</p>
+                                            <p className="text-muted mb-0" style={{ fontSize: '0.8rem' }}>AWS Educate</p>
+                                        </div>
+                                        <Badge bg="secondary" className="bg-opacity-10 text-secondary fw-normal">Badge</Badge>
                                     </div>
                                 </li>
                             </ul>

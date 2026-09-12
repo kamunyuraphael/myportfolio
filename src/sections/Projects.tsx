@@ -7,9 +7,9 @@ const projects: Project[] = [
     {
         id: 1,
         title: "Smart Energy Monitoring and Prediction System (SEMP)",
-        description: "SEMP is a home energy monitoring platform: forecast energy demand, track usage, and visualize consumption patterns to reduce waste. If interested contact fro login details.",
+        description: "SEMP is a home energy monitoring platform: forecast energy demand, track usage, and visualize consumption patterns to reduce waste. If interested, contact for login details.",
         impact: "Forecasts household energy demand to help cut waste before it happens.",
-        tags: ["React", "Type Script", "Node.js", "Python", "MongoDB"],
+        tags: ["React", "TypeScript", "Node.js", "Python", "MongoDB"],
         link: "https://semp-nu.vercel.app/login",
         live: true,
         github: "https://github.com/kamunyuraphael/SEMP",
@@ -121,6 +121,7 @@ const Projects = () => {
 
                                     <Card.Body className='d-flex flex-column'>
                                         <Card.Title className='fw-bold h5 mb-2'>{project.title}</Card.Title>
+                                        <p className='fw-semibold small mb-2'>{project.impact}</p>
                                         <Card.Text className='text-secondary flex-grow-1 small'>
                                             {project.description}
                                         </Card.Text>

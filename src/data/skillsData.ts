@@ -17,6 +17,6 @@ export const skills: Skill[] = [
     { name: 'Python', icon: SiPython, category: 'Data & Tools' },
     { name: 'AWS Cloud', icon: FaAws, category: 'Data & Tools' },
     { name: 'AIoT', icon: FaMicrochip, category: 'Data & Tools' },
-    { name: 'Cybersecurity', icon: FaShieldAlt, category: 'Data & Tools' },
-    { name: 'Project Lifecycles', icon: FaTasks, category: 'Data & Tools' },
+    { name: 'Data Analysis', icon: FaTasks, category: 'Data & Tools' },
+    { name: 'Machine Learning', icon: FaShieldAlt, category: 'Data & Tools' },
 ];

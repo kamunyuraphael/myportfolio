@@ -64,11 +64,22 @@ const projects: Project[] = [
         title: "CultureQuest",
         description: "A platform for exploring and sharing cultural experiences and stories.",
         impact: "Connects people with diverse cultural backgrounds through immersive storytelling.",
-        tags: ["React", "TypeScript", "Bootstrap", "Express", "Node.js", "MongoDB"],
+        tags: ["React", "TypeScript", "Tailwind CSS", "Express", "Node.js", "MongoDB"],
         link: "",
         live: false,
         github: "https://github.com/kamunyuraphael/CultureQuest",
         image: "https://res.cloudinary.com/iprdnhzp/image/upload/culture-quest_xrc1l4.jpg"
+    },
+    {
+        id: 7,
+        title: 'Safiri',
+        description: "A travelling assistant website that helps users discover new destinations, plan trips, and find attractions.",
+        impact: "Simplifies the travel planning process by providing a centralized platform for destination discovery and trip organization.",
+        tags: ["React", "TypeScript", "Tailwind CSS", "Express", "Node.js", "MongoDB"],
+        link: "",
+        live: false,
+        github: "https://github.com/kamunyuraphael/Safiri",
+        image: "https://res.cloudinary.com/iprdnhzp/image/upload/safiri_t3nlgh.png"
     }
 ];
 

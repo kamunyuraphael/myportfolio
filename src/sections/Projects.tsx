@@ -20,11 +20,11 @@ const projects: Project[] = [
         title: "RegenMapper",
         description: "An interactive geospatial tool for tracking reforestation efforts, built with mapping libraries to visualize planting progress and environmental impact.",
         impact: "Turns scattered planting logs into a live map of land under active regeneration.",
-        tags: ["React", "TypeScript", "Tailwind CSS", "Render", "Leaflet.JS"],
-        link: "https://regen-mapper.vercel.app/",
+        tags: ["React", "Type Script", "Render", "Leaflet.JS"],
+        link: "https://regen-mapper-2fbn.vercel.app/",
         live: true,
-        github: "https://github.com/kamunyuraphael/RegenMapper",
-        image: "https://res.cloudinary.com/iprdnhzp/image/upload/v1789300979/RegenMapper_vo3wkd.png"
+        github: "https://github.com/kamunyuraphael/regen-mapper",
+        image: "https://res.cloudinary.com/duuwn3dzm/image/upload/regen-mapper_wjkyow.png"
     },
     {
         id: 3,
@@ -53,9 +53,9 @@ const projects: Project[] = [
         title: "CarShowroom",
         description: "A web app that pairs an interactive virtual vehicle showroom with automotive heritage timelines, a head-to-head spec comparison engine.",
         impact: "Lets car enthusiasts explore vehicles, compare specs, and learn about automotive history in one place.",
-        tags: ["React", "TypeScript", "Tailwind CSS","Express", "Node.js", "MongoDB"],
-        link: "https://carshowroom-ochre.vercel.app/",
-        live: true,
+        tags: ["React", "TypeScript", "Bootstrap","Express", "Node.js", "MongoDB"],
+        link: "",
+        live: false,
         github: "https://github.com/kamunyuraphael/carshowroom",
         image: "https://res.cloudinary.com/iprdnhzp/image/upload/carshowroom_vj9lov.png"
     },
@@ -76,8 +76,8 @@ const projects: Project[] = [
         description: "A travelling assistant website that helps users discover new destinations, plan trips, and find attractions.",
         impact: "Simplifies the travel planning process by providing a centralized platform for destination discovery and trip organization.",
         tags: ["React", "TypeScript", "Tailwind CSS", "Express", "Node.js", "MongoDB"],
-        link: "https://app-puce-pi-90.vercel.app/",
-        live: true,
+        link: "",
+        live: false,
         github: "https://github.com/kamunyuraphael/Safiri",
         image: "https://res.cloudinary.com/iprdnhzp/image/upload/safiri_t3nlgh.png"
     }

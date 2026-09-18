@@ -20,11 +20,11 @@ const projects: Project[] = [
         title: "RegenMapper",
         description: "An interactive geospatial tool for tracking reforestation efforts, built with mapping libraries to visualize planting progress and environmental impact.",
         impact: "Turns scattered planting logs into a live map of land under active regeneration.",
-        tags: ["React", "Type Script", "Render", "Leaflet.JS"],
-        link: "https://regen-mapper-2fbn.vercel.app/",
+        tags: ["React", "Type Script", "Tailwind CSS", "Render", "Leaflet.JS"],
+        link: "https://regen-mapper.vercel.app/",
         live: true,
-        github: "https://github.com/kamunyuraphael/regen-mapper",
-        image: "https://res.cloudinary.com/duuwn3dzm/image/upload/regen-mapper_wjkyow.png"
+        github: "https://github.com/kamunyuraphael/RegenMapper",
+        image: "https://res.cloudinary.com/iprdnhzp/image/upload/v1789300979/RegenMapper_vo3wkd.png"
     },
     {
         id: 3,

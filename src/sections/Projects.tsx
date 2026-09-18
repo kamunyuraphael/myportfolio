@@ -80,6 +80,17 @@ const projects: Project[] = [
         live: true,
         github: "https://github.com/kamunyuraphael/Safiri",
         image: "https://res.cloudinary.com/iprdnhzp/image/upload/safiri_t3nlgh.png"
+    },
+    {
+        id: 8,
+        title: 'VistaRent',
+        description: "A car rental marketing web application that allows users to browse available vehicles, make reservations, and manage their bookings.",
+        impact: "Streamlines the car rental process by providing a user-friendly platform for vehicle selection and booking management.",
+        tags: ["React", "TypeScript", "Tailwind CSS", "Express", "Node.js", "MongoDB"],
+        link: "https://vista-rent.vercel.app/",
+        live: true,
+        github: "https://github.com/kamunyuraphael/vista_rent",
+        image: "https://res.cloudinary.com/iprdnhzp/image/upload/v1789735676/vistarent_itb5jb.png"
     }
 ];
 

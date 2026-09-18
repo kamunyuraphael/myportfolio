@@ -1,6 +1,6 @@
 import type { IconType } from 'react-icons';
 import { SiMongodb, SiExpress, SiReact, SiNodedotjs, SiTypescript, SiPython } from 'react-icons/si';
-import { FaAws, FaShieldAlt, FaMicrochip, FaTasks } from 'react-icons/fa';
+import { FaAws, FaChartBar, FaMicrochip, FaRobot } from 'react-icons/fa';
 
 interface Skill {
     name: string;
@@ -17,6 +17,6 @@ export const skills: Skill[] = [
     { name: 'Python', icon: SiPython, category: 'Data & Tools' },
     { name: 'AWS Cloud', icon: FaAws, category: 'Data & Tools' },
     { name: 'AIoT', icon: FaMicrochip, category: 'Data & Tools' },
-    { name: 'Cybersecurity', icon: FaShieldAlt, category: 'Data & Tools' },
-    { name: 'Project Lifecycles', icon: FaTasks, category: 'Data & Tools' },
+    { name: 'AI & ML', icon: FaRobot, category: 'Data & Tools' },
+    { name: 'Data Science', icon: FaChartBar, category: 'Data & Tools' },
 ];
